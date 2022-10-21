@@ -1,7 +1,7 @@
 //package classes;
-//
 //import java.util.Scanner;
 //
+
 //class Student {
 //	
 //	// Data members (Attributes)

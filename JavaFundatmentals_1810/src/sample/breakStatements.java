@@ -15,8 +15,10 @@ public class breakStatements {
 			if(num % 5 == 0) 
 				System.out.println("Number divisible by 5");
 			else
-				System.out.println("Number not divisible by 5");
+			System.out.println("Number not divisible by 5");
 		}
+		
+		sc.close();
 	}
 	
 }

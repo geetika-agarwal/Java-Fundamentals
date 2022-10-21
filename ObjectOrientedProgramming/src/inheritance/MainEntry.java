@@ -2,6 +2,11 @@ package inheritance;
 
 import java.util.Scanner;
 
+// This code is used to show the working of inheritance
+// where the public and protected data members ad methods
+// of the super/ parent class can be accessed by the 
+// sub/ child class.
+
 class Student {
 	private int id;
 	private String name;
