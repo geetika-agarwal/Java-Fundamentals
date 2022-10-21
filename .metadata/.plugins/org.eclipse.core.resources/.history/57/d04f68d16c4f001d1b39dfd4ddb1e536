@@ -1,8 +1,0 @@
-package sample;
-
-public class ShiftOperator {
-	public static void main(String[] args) {
-		int num = 2;
-		
-	}
-}
