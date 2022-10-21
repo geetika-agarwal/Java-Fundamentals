@@ -1,0 +1,11 @@
+package classes;
+
+class Student {
+	
+}
+
+public class ClassAndObjectExample {
+	public static void main(String[] args) {
+		
+	}
+}

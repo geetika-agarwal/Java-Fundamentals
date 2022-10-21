@@ -1,0 +1,21 @@
+package practice;
+import java.util.*;
+
+public class ProfitLossCheck {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int costPrice = sc.nextInt();
+		int sellingPrice = sc.nextInt();
+		
+		if(sellingPrice > costPrice)
+			System.out.println("Profit");
+		else
+			System.out.println("Loss");
+		
+		// Ternary Operator
+		String result = (sellingPrice > costPrice) ? "Profit" : "Loss";
+		System.out.println(result);
+	}
+
+}

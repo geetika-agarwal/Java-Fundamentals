@@ -1,0 +1,26 @@
+package Assessment;
+
+class Student {
+	private int admno;
+	private String sname;
+	private float eng, math, science;
+	private float total;
+	
+	private float ctotal() {
+		return eng + math + science;
+	}
+	
+	public void takeData(int admno, String sname, float eng, float math, float science) {
+		this.admno = admno;
+		this.sname = sname;
+		
+	}
+}
+
+public class ClassAndObject {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,27 @@
+package classes;
+
+class Person {
+	String name;
+	String city;
+	String country;
+	
+	//Default Constructor
+	public Person() {
+		
+	}
+	
+	// Parameterized Constructor with one parameter
+	public Person() {
+		
+	}
+	
+	// Parameterized Constructor with two parameter
+}
+
+public class ConstructorChaining {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

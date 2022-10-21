@@ -1,0 +1,41 @@
+package Assessment;
+
+class Student {
+	private int admno;
+	private String sname;
+	private float eng, math, science;
+	private float total;
+	
+	private float ctotal() {
+		return eng + math + science;
+	}
+	
+	public void takeData(int admno, String sname, float eng, float math, float science) {
+		this.admno = admno;
+		this.sname = sname;
+		this.eng = eng;
+		this.math = math;
+		this.science = science;
+		
+		this.total = ctotal();
+	}
+	
+	public void showData() {
+		System.out.println("Admission Number: " + this.admno);
+		System.out.println("Student Name: " + sname);
+		System.out.println("English Marks: " + this.eng);
+		System.out.println("Maths Marks: " + this.math);
+		System.out.println("Science Marks: " + this.science);
+		System.out.println("Total: " + this.total);
+	}
+}
+
+public class ClassAndObject {
+	
+	public static void main(String[] args) {
+		Student student = new Student();
+		student.takeData(100, 'King', 89, 76, 93);
+		student.showData();
+	}
+	
+}

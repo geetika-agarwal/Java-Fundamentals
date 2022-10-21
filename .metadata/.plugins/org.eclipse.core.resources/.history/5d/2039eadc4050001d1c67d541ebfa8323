@@ -1,0 +1,13 @@
+package classes;
+
+class Employee {
+	
+}
+
+public class StaticBlockExample {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

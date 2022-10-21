@@ -1,0 +1,29 @@
+package classes;
+
+class Student {
+	
+	// Data members (Attributes)
+	int studentId;
+	String studentName;
+	int studentAge;
+	
+	// Member Function
+	public void acceptDetails(int id, String name, int age) {
+		studentId = id;
+		studentName = name;
+		studentAge = age;
+	}
+	
+	public void displayDetails() {
+		System.out.println("Student ID: " + studentId);
+		System.out.println("Student Name: " + studentName);
+		System.out.println("Student Age: " + studentAge);
+	}
+	
+}
+
+public class ClassAndObjectExample {
+	public static void main(String[] args) {
+		
+	}
+}
