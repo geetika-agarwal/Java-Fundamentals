@@ -1,0 +1,89 @@
+Object Oriented Programming:
+	
+	The key feature of OOPS concepts is Data Security
+
+Other features:
+	
+	- Binding data into template
+	- Reusability of code
+	- Reducing space complexity
+	- Encapsulate the protected data
+	- Reducing the time and efforts of programmer
+	- Increase the readability of the program
+	
+Components of OOPs:
+
+	1. Class
+	2. Object
+	3. Encapsulation
+	4. Inheritance
+	5. Polymorphism
+	6. Abstraction
+	
+---------------------------------------------------------------------------	
+	
+Class:
+	
+	- A user defined data type or blueprint
+	- A class is a collection of data members and member functions.
+	- Where data members are the variables declared inside a class
+	- and Member Functions are the methods defined inside a class.
+	
+Object:
+
+	- A representator or a part of a class.
+	- Helps in accessing the members of a class.
+	- When object oa a class is created, memory get allocated to all the data members of the class, but the memory for the methods are allocated only when they are called.
+	
+Constructor:
+	- A special methods that helps in initializing the data members of the class. If we don't have a constructor in a class than all the data members gets initialized by their data values with respect to their types by a constructor of an object.
+	- But if you have any constructor in your own class, object class constructor doesn't invoke.
+	- The name of the constructor is same as the name of the class.
+	- They don't have a return type.
+	- We don't use these methods for input, ouptut or operations
+	- Constructors are invoked implicitely.
+	
+Types of Constructor:
+	
+	1. Default Constructor
+	2. Parameterized Constructor
+	3. Copy Constructor
+	4. Private Constructor
+	5. Static Constructor or Static block
+	
+- In Java, a constructor is not allowed to be abstract, final, static and native. So there is no static constructor in Java.
+
+- We can use static blic in Java to initialize the static members of the class.
+
+- As static keyword is associated with class, static blockis executed before constructor of the class
+
+- Whene we create an object of a class, before allocating to the memory to the instance data members, first memory is allocated to the static class member
+
+Constructor Chaining:
+	
+	- A constructor from another constructor. 
+	- Also called as Constructor Overloading.
+
+-------------------------
+
+Inheritance:
+	- Helps in reusability of code
+	- Helps in reducing time and efforts of the programmer
+	- Helps in inheriting the attributes and behaviours of parent class into child class.
+	- A class can extends only one class at a time.
+	- When we create an object of the child class we can access the public members and methods of both child and parent class.
+	- Parent Class: Base Class/ Super Class
+	- Child Class: Derived Class/ Sub class
+	
+--------------------------
+
+Types of Inheritance:
+	
+	- Single Inheritance
+	- MultilevelInheritance
+	- Heirarichial inheritance
+
+- These below mentioned types of inheritance can be achieved using interfaces
+	
+	- Multiple Inheritance
+	- Hybrid Inheritance
