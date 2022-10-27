@@ -187,5 +187,6 @@ List<Integer> names = new ArrayList<Integer>();
 	. boolean - Boolean
 	
 	Example:
+	
 		Integer integer = new Integer(100);
 		Character charac = new Character(1234) // Compile-Time Error

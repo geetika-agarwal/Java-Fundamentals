@@ -1,0 +1,33 @@
+
+There are some errors being raised by compiler or interpretator at compile time and run time depending upon the coding approach a developer follows.
+
+There are types of errors:
+	
+	- Compile-Time Errors: caught by compiler while writing a program. They occur when we do a syntactical mistakes, or mis-spell any keywords. They are also considered as:
+		- Syntactical Errors
+			- Missing SemiColons
+			- Mis-spelled Keywords
+		- Semantic Errors (Expressional Errors)
+			- When we write incorrect expressions.
+			eg.: num1 + num2 = num3; (incorrect)
+			
+			num1 =+ num1; (incorrect)
+			num1 += num2 (correct)
+		
+
+Note: Programmers need to handle or resolve the compile-time errors by themselves.
+
+	- Run-Time Errors:
+		These errors occur due to incorrect input or invalid inputs.
+		They are occured at excution time.
+		They can be resolved with the help of Exception Handling.
+		The program gets abnormally terminated due to exceptions.
+	
+	- Logical Errors:
+		These errors occurs when we don't get an expected output.
+		These are the errors raised by developers.
+		They are due to incorrect logic or incorrect use of operations.
+
+Exception Handling:
+	
+	
