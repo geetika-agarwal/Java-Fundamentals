@@ -30,4 +30,10 @@ Note: Programmers need to handle or resolve the compile-time errors by themselve
 
 Exception Handling:
 	
+	There are two types of Exceptions:
+		- Checked Exceptions: These occur during the Compile-time.
+		
+		- Unchecked Exception: These occur during the run-time of the program excution.
+	
+	
 	

@@ -1,0 +1,18 @@
+File Handling:
+	
+	File Handling helps in storing the data into the file system.
+	
+	Java offers a list of classes and methods to work with File System
+	
+	All these classes are available within java.io package.
+	
+	Working with file handling is to work with Streams.
+	
+	Stream is a group of data or characters that travels from source to detination and vice versa.
+	
+	Streams are of two types in Java:
+	
+		- Byte Stream (InputStream Class, OutputStream Class)
+		- Character Stream (Reader Classes, Writer Classes)
+	
+	
