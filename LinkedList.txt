@@ -1,4 +1,39 @@
 
 LinkedList:
 	
+	- It implements List and Queue Interface.
+	- This maintains the insertion order similar to ArrayList
+	- By default collections internally implements Doubly-LinkedList
+	- This list contains duplicate elements also.
+	- We can search elements in LinkedList bi-directionally.
+	- Elements can be added/ removed from both sides, as it is Doubly-LinkedList
 	
+Methods in LinkedList:
+
+	- addFirst(value): This method will add the elements in the start of linked list
+	
+	- addLast(value): This will add the element to the last of the linked list.
+	
+	- addAll(list_name): This will add the list elements to the last of the list that is being operated.
+	
+	- removeFirst() : This will remove the first element of the linked list
+	
+	- removeLast(): This will remove the last element of the linked list.
+	
+	- removeAll(subCollection): This will remove the sub collection from the linked list.
+	
+	- clear(): This will remove all the elements from the list.
+	
+	- getFirst(): This will return the first element of the list.
+	
+	- getLast(): This will return the last element of the linked list.
+	
+	- poll(): This will return Object that is removed from the list. This will help in printing the object that is being removed.
+	
+	- pollFirst(): This will remove the First element of the list and return the object that is being removed.
+	
+	- pollLast(): This will remove the last element and return the object that is being removed from the list.
+	
+	- removeFirstOccurence(value): This will remove the value from the list that is reoccuring and the first reoccurence is removed.
+	
+	- removeLastOccurance(value): This will remove the last occurance of the reoccuring element.

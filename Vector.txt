@@ -1,0 +1,15 @@
+
+Vector:
+	
+	- It is almost similar to ArrayList.
+	- It is Synchronized.
+	- It maintains the insertion order.
+	- Vector allows duplicate values.
+	
+Methods in Vectors:
+
+	- addElement(value): This will add the element to the vector.
+	
+	- capacity(): This will print the capacity of the Vector. The default capacity of the vector is 10. Whenever the size goes beyond 10, the capacity is doubled.
+	
+	

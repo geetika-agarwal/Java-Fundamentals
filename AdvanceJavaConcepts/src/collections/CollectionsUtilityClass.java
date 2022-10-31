@@ -5,7 +5,9 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class Person {
+class Person
+// implements Comparable<Person>
+{
 	private int personId;
 	private String personName;
 	private int age;
