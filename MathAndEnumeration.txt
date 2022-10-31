@@ -1,0 +1,27 @@
+Math Class:
+	
+	- Static Methods that are called using only class name.
+	
+	- Performs basic mathematical Operations:
+		- Elementary exponential
+		- Logarithm
+		- Square Root
+		- Trigonometric Functions.
+		
+Enumeration Class:
+	
+	- A special which defines its own enumerated data - Enum.
+	
+	- Represents a collection of predefined constants.
+	
+	- Any set of constants related to any application can be defined using enums.
+	
+----------------------------------------
+
+- 0.0/ 0.0 = Nan
+
+- 12.0/ 0.0 = Infinity
+
+- -12.0/ 0.0 = -Infinity
+
+- Math.sqrt(-1) = Nan

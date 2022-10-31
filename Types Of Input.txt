@@ -1,0 +1,7 @@
+
+There are three ways to take input from console in Java:
+	
+	1. Using Java BufferReader
+	2. Using Java Scanner Class
+	3. Using Java Console Class
+	

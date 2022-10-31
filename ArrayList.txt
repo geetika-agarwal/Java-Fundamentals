@@ -1,0 +1,28 @@
+
+ArrayList Class:
+
+	- ArrayList CLass implements List interface.
+	- This class allows duplicate values.
+	-Here, elements can be accessing using index or with element values.
+	- We can also use iterator or ListIterator to access the elements.
+	- The elements here in ArrayList can grow or decrease dynamically.
+	
+Methods of ArrayList:
+
+	- add(value): This methods appends the value in list.
+	
+	- add(index, value): This methods add the element at a particular index.
+	
+	- remove(value/index): This method will remove the value or the value at the index in the list
+	
+	- set(index, value): This method will set or replace the value with the parameter passed.
+	
+	- indexOf(value): This will return the index of the value at which it is present.
+	
+	- get(index): This will return the value at the index. 
+	
+	- size(): This will return the size of the list
+	
+	- consists(value) - This will return boolean value based on whether the value is present in the list or not.
+	
+	- clear(): This method will remove all the elements present in the list. 

@@ -1,0 +1,68 @@
+
+Collections and Generics:
+---------------------------
+
+Collections:
+A framework in Java that provides different interfaces and classes to store and manipulate objects.
+
+Collection (Interface): 
+	- Set (Interface)
+		- SortedList (Interface)
+			- TreeSet(Class)
+		- HashSet
+		- LinkedHashSet
+	- List (Interface)
+		- ArrayList
+		- LinkedList
+		- Vector
+	- Queue (Interface)
+		- LinkedList
+		- PriorityOueue
+	- Map (Interface)
+		- SortedMap (Interface)
+			TreeMap(Class)
+		- HashTable
+		- LinkedHashMap
+		- HashMap
+		
+Objects in Collections: Arrays, Collections
+
+Arrays: 
+	
+	- A utility class that contains various static methods that we can use to perform operations such as find, sort, search and so on.
+	
+Collections:
+	
+	- A utility class that provides methods for useful operations for handling large data.
+	
+Arrays Methods:
+
+	- Arrays.asList(array_name) = This method is used for converting an array to List interface.
+
+	- Arrays.sort(array_name)= This method is used for sorting the elements of the array.
+	
+	- Arrays.binarySearch(array_name, key_value) = This method is used for performing binarySearch on the sorted array and return the index at which the key_value is found otherwise return -1.
+	
+	- Arrays.toString(array_name): This methid is used to print the array in a single line without using loop.
+	
+	- Arrays.copyOf(array_name, new_size) = This will copy all the elements of the array and create a new array with a different
+	
+	- Arrays.copyOfRange(array_name, start_index, end_index) = This will create a new array by copying elements from the given range.
+	
+	- Arrays.equals(array_name1, array_name2) = This will return boolean value based whether two arrays are equal or not.
+	
+	- Arrays.fill(array_name, value) = This will fill all the elements in the array with a particular value that is passed.
+	
+Collections Utility Class:
+	
+	This Collections is a utility class that consists all static methods that operate or return collection
+	
+	- Collections.reverse(list_name) = This will retun the reversed list.
+	
+	- Collections.shuffle(list_name) = This will shuffle the elements of the list.
+	
+	- Collections.frequency(list_name, value) = This will return the number of times the value is repeated in the list and return the number/ frequency of that value.
+	
+	- Collections.sort(list_name) = This method will sort the elements in the list. This will sort the elements of the list in Ascending Order. In order to sort the list in Descending Order, we can first sort in Ascending order then apply reverse method on the list.
+	
+		
