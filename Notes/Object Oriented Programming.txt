@@ -1,0 +1,192 @@
+Object Oriented Programming:
+	
+	The key feature of OOPS concepts is Data Security
+
+Other features:
+	
+	- Binding data into template
+	- Reusability of code
+	- Reducing space complexity
+	- Encapsulate the protected data
+	- Reducing the time and efforts of programmer
+	- Increase the readability of the program
+	
+Components of OOPs:
+
+	1. Class
+	2. Object
+	3. Encapsulation
+	4. Inheritance
+	5. Polymorphism
+	6. Abstraction
+	
+---------------------------------------------------------------------------	
+	
+Class:
+	
+	- A user defined data type or blueprint
+	- A class is a collection of data members and member functions.
+	- Where data members are the variables declared inside a class
+	- and Member Functions are the methods defined inside a class.
+	
+Object:
+
+	- A representator or a part of a class.
+	- Helps in accessing the members of a class.
+	- When object of a class is created, memory get allocated to all the data members of the class, but the memory for the methods are allocated only when they are called.
+	
+Constructor:
+	- A special methods that helps in initializing the data members of the class. If we don't have a constructor in a class than all the data members gets initialized by their data values with respect to their types by a constructor of an object.
+	- But if you have any constructor in your own class, object class constructor doesn't invoke.
+	- The name of the constructor is same as the name of the class.
+	- They don't have a return type.
+	- We don't use these methods for input, ouptut or operations
+	- Constructors are invoked implicitely.
+	
+Types of Constructor:
+	
+	1. Default Constructor
+	2. Parameterized Constructor
+	3. Copy Constructor
+	4. Private Constructor
+	5. Static Constructor or Static block
+	
+- In Java, a constructor is not allowed to be abstract, final, static and native. So there is no static constructor in Java.
+
+- We can use static block in Java to initialize the static members of the class.
+
+- As static keyword is associated with class, static block is executed before constructor of the class
+
+- Whenever we create an object of a class, before allocating to the memory to the instance data members, first memory is allocated to the static class member
+
+Constructor Chaining:
+	
+	- A constructor from another constructor. 
+	- Also called as Constructor Overloading.
+
+-------------------------
+
+Inheritance:
+	- Helps in reusability of code
+	- Helps in reducing time and efforts of the programmer
+	- Helps in inheriting the attributes and behaviours of parent class into child class.
+	- A class can extends only one class at a time.
+	- When we create an object of the child class we can access the public members and methods of both child and parent class.
+	- Parent Class: Base Class/ Super Class
+	- Child Class: Derived Class/ Sub class
+	
+--------------------------
+
+Types of Inheritance:
+	
+	- Single Inheritance
+	- MultilevelInheritance
+	- Heirarichial inheritance
+
+- These below mentioned types of inheritance can be achieved using interfaces
+	
+	- Multiple Inheritance
+	- Hybrid Inheritance
+
+-----------------------
+	
+Encapsulation: Hiding data. A class is by default encapsulated. Use private access modifier to encapsulate the data.
+
+Abstraction: Abstract the relevant data which is in use. Use public and protected access data modifier as per the use.
+
+- Abstract classes, data members and methods cannot be private.
+
+-----------------------
+
+Polymorphism:
+
+	'Poly' means many and 'morpho' means forms.
+	
+	"One Interface Multiple Functions".
+	
+	Polymorphism can be achieved by two ways:
+	1. Static Polymorphism (Early-Binding)
+	
+		- Overloading (Method and Constructor Overloading)
+		If a class has multiple methods havong same name but different parameters/ signatures, it is known as Method Overloading.
+		
+		If a class has multiple constructors having same name but different parameters, it is known as Constructor Overloading.
+	
+	2. Dynamic Polymorphism (Late-Binding)
+		
+		- Overriding (Abstract Classes and Interfaces)
+		
+		If a child class has method with same name, signatures and same or above access specifiers to re write the function definition it is known as method overriding.
+		
+		The sub class will use the "super" keyword for overriding the methods that are there in the parent class.
+		
+----------------------------
+
+Abstract Class:
+
+	A class in which abstract methods are defined, needs to be declared abstract class. We use abstract keyword to make any class as abstract class.
+	An abstract class can contain abstract and non-abstract methods.
+	An abstract class can't be instantiated that is an object cannot be created for the abstract classes.
+	An abstract class can also have constructors, default and static methods.
+	An abstract can also have fina; variables and methods too.
+	
+Abstract Method:
+	
+	A method which is declared as abstrct and doesn't have implementation is also known as abstract method
+	An abstract method gets overriden into sub classes or child classes forecefully.
+	
+------------------------------
+
+Interfaces:
+	- An interface are contract.
+	- A blueprint of a class that can have static, default, abstract methods.
+	- There can be only abstracct methods in interfaces.
+	- By default all the methods of an interface are abstract and public
+	- Java 8 onwards, we can have default and static in an interface.
+	- Java 9 onwards, we can also have private methods.
+	- A class extends another class but a class implements another interface.
+	- Multiple Inheritance can be achieved through interface, hence multiple interfaces can be implemented by a class
+	
+----------------------------
+
+Getters and Setters:
+
+	- Getters and Setters are special methods-They help in reading and writing the data members or object properties of a class- The getter to read value to a variable
+	- The setter class is used to write the value to the variable
+	- They help in reading and writing the private fields of the class
+	- They help in making the property read-only, write-only, read-write-only.
+	- They also help in checking different values and conditions.
+	
+------------------------------
+
+Wrapper Class:
+	
+	- Generic Classes work with object and don't eith primitive.
+	
+	List<String> names = new ArrayList<String>();
+	
+	// Invalid
+	
+List<int> names = new ArrayList<int>();
+
+	// Valid
+	
+List<Integer> names = new ArrayList<Integer>();
+
+	- Wrapper Classes are needed to convert primitive classes into non-primitive datatypes or objects.
+	
+	- In Java, wrapper classes are provided by "java.lang" package.
+	
+	. char - Character
+	. byte - Byte
+	. short - Short
+	. int - Integer
+	. long - Long
+	. float - Float
+	. double - Double
+	. boolean - Boolean
+	
+	Example:
+	
+		Integer integer = new Integer(100);
+		Character charac = new Character(1234) // Compile-Time Error

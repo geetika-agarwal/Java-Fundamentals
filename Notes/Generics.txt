@@ -1,0 +1,100 @@
+
+Generics:
+
+	- It was introduced from Java5.
+	
+	- The generic collection allow the datatypes to pass as a parameters to the classes and methods.
+	
+	- The generic collections disable the type-casting usage.
+	
+	- The generic collections are type safe and checked at compile time.
+
+	- The generic collection syntax:
+		class<datatype>, interface<datatype>
+		
+Example: 
+		
+		package generics;
+
+		class Test<T> {
+			T obj;
+
+			Test() {
+				super();
+			}
+
+			Test(T obj) {
+				this.obj = obj;
+			}
+
+			public T getObject() {
+				return this.obj;
+			}
+		}
+
+		public class GenericsExample {
+			public static void main(String[] args) {
+				Test<Integer> test = new Test<Integer>(15);
+				System.out.println("Test value: " + test.getObject());
+			}
+		}
+
+- Elements to be used	while creating user-defined generics:
+	
+	T - Type
+	E - Element
+	K - Key
+	N - Number
+	V - Value
+
+WildCards:
+
+package generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+abstract class IShape {
+	abstract void drawShape();
+}
+
+class Square extends IShape {
+	@Override
+	public void drawShape() {
+		System.out.println("Drawing Square Here....");
+	}
+}
+
+class Rectangle extends IShape {
+	@Override
+	public void drawShape() {
+		System.out.println("Drawing a Rectangle Here....");
+	}
+}
+
+public class GenericWithWildCardExample {
+
+	public static void drawing(List<? extends IShape> list) {
+		for (IShape shape : list) {
+			shape.drawShape();
+		}
+	}
+
+	public static void main(String[] args) {
+		List<Square> list1 = new ArrayList<Square>();
+		list1.add(new Square());
+		list1.add(new Square());
+		list1.add(new Square());
+		list1.add(new Square());
+
+		List<Rectangle> list2 = new ArrayList<Rectangle>();
+		list2.add(new Rectangle());
+		list2.add(new Rectangle());
+		list2.add(new Rectangle());
+		list2.add(new Rectangle());
+
+		drawing(list1);
+		System.out.println("-------------------");
+		drawing(list2);
+	}
+}

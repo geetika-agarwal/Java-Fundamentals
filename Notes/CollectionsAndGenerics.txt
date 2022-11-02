@@ -64,5 +64,4 @@ Collections Utility Class:
 	- Collections.frequency(list_name, value) = This will return the number of times the value is repeated in the list and return the number/ frequency of that value.
 	
 	- Collections.sort(list_name) = This method will sort the elements in the list. This will sort the elements of the list in Ascending Order. In order to sort the list in Descending Order, we can first sort in Ascending order then apply reverse method on the list.
-	
 		

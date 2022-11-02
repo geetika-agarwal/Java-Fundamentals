@@ -4,6 +4,7 @@ Set/ HashSet:
 	- An interface that extends Collection
 	- A set is an unoredered collections of Objects
 	- No duplicates are allowed in the Set.
+	- It is synchronized.
 	- All basic operation like add, remove, size and clear are available in Set as well
 	
 LinkedHashSet:

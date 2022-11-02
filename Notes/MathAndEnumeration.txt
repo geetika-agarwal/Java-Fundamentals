@@ -1,0 +1,61 @@
+Math Class:
+	
+	- Static Methods that are called using only class name.
+	
+	- Performs basic mathematical Operations:
+		- Elementary exponential
+		- Logarithm
+		- Square Root
+		- Trigonometric Functions.
+		
+Enumeration Class:
+	
+	- A special which defines its own enumerated data - Enum.
+	
+	- Represents a collection of predefined constants.
+	
+	- Any set of constants related to any application can be defined using enums.
+	
+----------------------------------------
+
+- 0.0/ 0.0 = Nan
+
+- 12.0/ 0.0 = Infinity
+
+- -12.0/ 0.0 = -Infinity
+
+- Math.sqrt(-1) = Nan
+
+-------------------------------------------
+
+Methods in Math Class:
+
+sqrt(value) : It return the square root of the value. The value returned is double.
+
+abs(value): Returns the absolute value/positive value for a give integer.
+
+ceil(value): return the hgihest integer for a given float/double value.
+
+floor(value): returns the lowest nearest integer from the give float/ double value.
+
+cos(value): returns the double value which is the cosine of the value.
+
+sin(value): Returns the sine of the value. Value returned is a double.
+
+random(): returns a random number();
+
+round(value): This will roundong off the number.
+
+Math.PI: returns the value of Pi.
+
+exp(): returns the base of natural log(e) to the power of argument
+
+log(): returns the natural log of the argument.
+
+pow(): takes two arguments as input and returns the value of the first argument raised to the power of the second argument.
+
+-------------------------------------------------------
+
+Enumeration: A datatype which contains collection of predefined constants.
+
+Ex: Directions, Deck of Cards, Weekdays, etc.
