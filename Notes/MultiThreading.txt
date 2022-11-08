@@ -1,0 +1,56 @@
+
+MultiThreading :
+	
+	It is process to create multiple threads at the same time without dependency of other threads. 
+	
+	- A process to create multiple threads, at the same time, and without any dependency.
+	
+Asynchronous Programming (Non-Blocking) Approach:
+	
+	One or more request can be placed one after the another.
+	Each request independently gets allocated with threads.
+	Once your request gets processed, you will get your desired output
+	
+	Note: Not sure, which request gets processed first, that depends upon request time and resources required.
+	
+Synchronous Approach (Blocking):
+	
+	Requests gets happened one after the another. Until the previous request is not completed, next has to wait. (One at a time).
+	
+Thread:
+
+	It is a predefined class which is available in java.lang package.
+	
+	A unit of CPU and it is actually known for independent execution.
+	
+	To create your own thread in Java:
+	
+		1. By extending Thread Class
+		2. By implementing Runnable Interface.
+		
+Difference Between extending thread class and implementing runnable interface:
+
+	- When we extend Thread class, we can't extend any other class.
+	- Thus, multiple inheritance cannot be achieved.
+	
+Thread Life Cycle:
+
+	1. New Thread (New born thread)
+	2. Runnable
+	3. Running
+	4. Blocked (non-runnable thread)
+	5. Terminated or Dead
+	
+User Threads vs. Daemon Threads:
+	
+	Daemon Threads are known as backgroumd threads.
+	Theyp provide service to other user defined threads.
+	If you want to make any thread as deamon thread, you can use setDaemon() method to do the same.
+	
+Thread Priority:
+
+Priority means numbers of resources allocated to a particular thread. JVM assigns the priority. The priority range lies between 1 and 10.
+
+- Thread.MIN_PRIORITY = 1
+- Thread.MAX_PRIORITY = 10;
+- Thread.NORM_PRIORITY = 5;

@@ -108,7 +108,7 @@ Polymorphism:
 	1. Static Polymorphism (Early-Binding)
 	
 		- Overloading (Method and Constructor Overloading)
-		If a class has multiple methods havong same name but different parameters/ signatures, it is known as Method Overloading.
+		If a class has multiple methods having same name but different parameters/ signatures, it is known as Method Overloading.
 		
 		If a class has multiple constructors having same name but different parameters, it is known as Constructor Overloading.
 	
@@ -128,11 +128,11 @@ Abstract Class:
 	An abstract class can contain abstract and non-abstract methods.
 	An abstract class can't be instantiated that is an object cannot be created for the abstract classes.
 	An abstract class can also have constructors, default and static methods.
-	An abstract can also have fina; variables and methods too.
+	An abstract can also have final variables and methods too.
 	
 Abstract Method:
 	
-	A method which is declared as abstrct and doesn't have implementation is also known as abstract method
+	A method which is declared as abstract and doesn't have implementation is also known as abstract method
 	An abstract method gets overriden into sub classes or child classes forecefully.
 	
 ------------------------------
@@ -140,7 +140,7 @@ Abstract Method:
 Interfaces:
 	- An interface are contract.
 	- A blueprint of a class that can have static, default, abstract methods.
-	- There can be only abstracct methods in interfaces.
+	- There can be only abstract methods in interfaces.
 	- By default all the methods of an interface are abstract and public
 	- Java 8 onwards, we can have default and static in an interface.
 	- Java 9 onwards, we can also have private methods.
@@ -166,12 +166,10 @@ Wrapper Class:
 	List<String> names = new ArrayList<String>();
 	
 	// Invalid
-	
-List<int> names = new ArrayList<int>();
+		List<int> names = new ArrayList<int>();
 
 	// Valid
-	
-List<Integer> names = new ArrayList<Integer>();
+		List<Integer> names = new ArrayList<Integer>();
 
 	- Wrapper Classes are needed to convert primitive classes into non-primitive datatypes or objects.
 	

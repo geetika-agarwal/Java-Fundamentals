@@ -134,10 +134,9 @@ About Git Commit:
 --------------------------------------------------------------
 
 		git checkout master
-		-
-		git merge MyFirstBranch
+		- git merge MyFirstBranch
 		
-		git push -u origin master
+		- git push -u origin master
 		
 --------------------------------------------------------------
 		

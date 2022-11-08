@@ -1,0 +1,34 @@
+
+Time Complexity:
+	
+	- O(1) - Constant Time Algorithm.
+	- The time is constant regardless the input size
+	- This is one of the fastest notation
+	
+--------------------------------------
+
+	- O(n) = Quadratic Big O Notation
+	- This grows linearly with input size.
+	- As n gets increases, execution time also increases.
+
+-------------------------------------------
+
+	- O(n^2) - Quadratic Big O Notation.
+	- It grows in propotion to some factors of concurrent executions.
+	- It doesn't varies with concurrent operation run simaltaneously
+	- Neseted Loop
+	- This represents whose complexity is directly propotional to the square of the size. 
+	- Depending on the number of nested loops, this complexity will increase exponentially.
+
+---------------------------------------
+
+	- O (log n) - Logarithmic Time Algorithm
+	- (Half of the input size) - Logarithmic
+	- It grows logarithmic propotion
+	- Example, binary search example
+	- The runtime complexity of the algorithme  is increased by one when the input size increases by two.
+	
+--------------------------------------------
+
+	O(2^n) : Exponential base 2 running means that the calculations performed by an algorithm double everytime as the input grows.
+	- Algorithm with this notation are often recursive algorithms that solve a proble of size n by recursively solving two smaller problems of size n-1.

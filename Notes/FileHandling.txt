@@ -12,7 +12,26 @@ File Handling:
 	
 	Streams are of two types in Java:
 	
-		- Byte Stream (InputStream Class, OutputStream Class)
+		- Byte Stream (InputStream Class, OutputStream Class):
+			Syntax:
+				For Writing into File:
+					FileOutputStream outStream = new FileOutputStream(Absolute Path of the File);
+					OutputStreamWriter out = new OutputStreamWriter(outStream);
+					
+					// Throws IOException.
+					
+				For Reading from File:
+					FileInputStream inStream = new FileInputStream(Absolute Path of File);
+					InputStreamReader reader = new InputStreamReader(inStream);
+					
+					// Throws IOException
+					
 		- Character Stream (Reader Classes, Writer Classes)
-	
-	
+			Syntax:
+				Writing into the File:
+					Writer writer = new FileWriter(Absolute Path of the File);
+					
+					// Throws IOException
+				
+				Reading from the file:
+					Reader reader = new FileReader(Absolute Path of the File);

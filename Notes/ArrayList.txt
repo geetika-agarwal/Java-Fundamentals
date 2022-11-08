@@ -1,7 +1,7 @@
 
 ArrayList Class:
 
-	- ArrayList CLass implements List interface.
+	- ArrayList Class implements List interface.
 	- This class allows duplicate values.
 	-Here, elements can be accessing using index or with element values.
 	- We can also use iterator or ListIterator to access the elements.

@@ -1,0 +1,11 @@
+
+Space Complexity:
+	
+	- It is the amount used by the algorithm that is used during the execution and generate the result.
+	- Auxillary space is the extra ot the temporary space used by the algorithm during it's execution.
+		Space Complexity = Auxillary Space + Input Space
+	
+	- While executing  the algorithm, it uses the memory space for three reasons:
+		- Instruction Space 
+		- Environmental Space
+		- Data Space

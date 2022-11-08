@@ -1,7 +1,7 @@
 
 Final Keyword:
 	
-	- This kyword can be used with
+	- This keyword can be used with
 		- Variable
 			Final Variable
 			Blank Final Variable

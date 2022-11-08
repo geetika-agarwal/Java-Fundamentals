@@ -1,5 +1,5 @@
 
-Software Development Lif Cycle:
+Software Development Life Cycle:
 	- Requirement Gathering
 	- Analysis and Planning
 	- Design
@@ -19,7 +19,7 @@ Agile Team:
 Waterfall Model:
 	1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 	
-- Agile is a software development process or model where all the entities together to achieve the deliverables that go parallelly in collaboration.
+- Agile is a software development process or model where all the entities work together to achieve the deliverables that go parallelly in collaboration.
 
 - Most of the time, documentation is avoided in agile process.
 
@@ -42,7 +42,7 @@ Business Analyst: In waterfall or other models, BA plays an important role to in
 Roles in Agile Process:
 
 	1. Product Owner: responsible for getting requirements from stakeholders.
-	2. Scrum Master: facillitator for an entire agile development teams. SM is not a developer/ QA/ PO/ Manager. SM is an intermediator between the agile development team.
+	2. Scrum Master: facillitator for an entire agile development teams. SM is not a developer/ QA/ PO/ Manager. SM is an intermediator between the agile development team i.e the developers and testers.
 	3. Scrum Team: developers + testers who work together to achieve a goal of the product.
 
 ---------------------------------------------------------------------------

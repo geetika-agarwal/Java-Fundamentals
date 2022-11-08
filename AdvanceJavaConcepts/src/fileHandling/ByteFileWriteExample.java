@@ -2,7 +2,6 @@ package fileHandling;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 
@@ -13,7 +12,7 @@ public class ByteFileWriteExample {
 		// Input Stream: Reading from the file.
 
 		try {
-			OutputStream outStream = new FileOutputStream(
+			FileOutputStream outStream = new FileOutputStream(
 					"C:\\\\Users\\\\geeti\\\\eclipse-wiley-workshop\\\\Files\\\\myFile.txt");
 			Writer writer = new OutputStreamWriter(outStream);
 

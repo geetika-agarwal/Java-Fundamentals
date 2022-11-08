@@ -43,9 +43,9 @@ Arrays Methods:
 	
 	- Arrays.binarySearch(array_name, key_value) = This method is used for performing binarySearch on the sorted array and return the index at which the key_value is found otherwise return -1.
 	
-	- Arrays.toString(array_name): This methid is used to print the array in a single line without using loop.
+	- Arrays.toString(array_name): This method is used to print the array in a single line without using loop.
 	
-	- Arrays.copyOf(array_name, new_size) = This will copy all the elements of the array and create a new array with a different
+	- Arrays.copyOf(array_name, new_size) = This will copy all the elements of the array and create a new array with a different size.
 	
 	- Arrays.copyOfRange(array_name, start_index, end_index) = This will create a new array by copying elements from the given range.
 	

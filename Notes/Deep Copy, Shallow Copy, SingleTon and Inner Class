@@ -5,7 +5,7 @@ Clonning:
 	
 	In Java, clone() method being used from java.lang.Object class for clonning.
 	
-	This clone() method copies the object in which field-by-field assignment happens and returns the reference if the cloned object.
+	This clone() method copies the object in which field-by-field assignment happens and returns the reference of the cloned object.
 	
 	The object in which we implement Clonable interface is eligible for clonning process.
 	

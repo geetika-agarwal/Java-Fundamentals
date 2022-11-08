@@ -1,0 +1,31 @@
+Employee Management System:
+Use File Handling Approach to store employee data.Add
+An employee can have, Id, Name, Salary and designation.
+
+	In Main Menu, Create a menu driven System:
+	1 - Get All Employees
+	2 - Get Employee By Id
+	3 - Add New Employee
+	4 - Update Existing Employee
+	5 - Delete Existing Employee
+	
+(Repeat this above menu, until user wants to continue) - Hint: Use do..while loop
+
+------------------------------------------------------------------------------
+
+Part 2:
+
+Employee is an individual entity, so create employee repository class to implement all the crud
+operations of it. All file handling operations will go in this repository class by using member 
+functions.
+
+Part 3:
+
+Employee Repository class will implement IOperation interface for all the crud operations.
+
+Part 4:
+
+InvalidEmployeeException
+
+
+------------------------------------------------------------------------------
