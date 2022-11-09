@@ -1,0 +1,10 @@
+
+Linked List:
+	
+	- The linked list is a collection of nodes that are not stored at contiguous memory locations.
+	
+	- Every node contais two fields: Oe field is used to store the data and other field is used to store the pointer to the next node.
+	
+	- The last node of the linked list contains the pointer to NULL.
+	
+	

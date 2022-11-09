@@ -1,0 +1,22 @@
+
+Stack:
+
+	- It is a Linear Data Structure which follows the FILO operations that is First In Last Out.
+	
+	- The top variable is used for performing operations on the elements of the stack.
+	
+	- The basic Operations of Stack are:
+	
+		1. push(int element): For inserting the element into the stack/
+		2. pop(): This will return the topmost element of the stack and remove it from the stack.
+		3. peek(): This will just remove the topmost element of the stack.
+		
+	- The Applications of the Stack are:
+	 
+		- Evaluation of Arithmetic Expression.
+		- Backtracking
+		- Delimiter Checking
+		- Recursion
+		- Processing Function Calls
+		- Reversing a String or array.
+		- Storing variable 
