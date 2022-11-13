@@ -1,0 +1,33 @@
+
+Association:
+	
+	- It is relationship between two separate classes through their objects.
+	
+	- Example, 
+		- One to One
+		- One To Many
+		- One to Many
+		
+- A Relation can be represented as logical links between two or more entities or objects.
+
+- Classification of Relations:
+	- Association
+	- Aggregation
+	- Composition
+
+Association:
+
+	- Relation resulted by the cooperation between classes.
+	
+	- Communication between the objects of the classes
+	
+	- Object in a relation can have both dependent and independent lifecycles.
+	
+Cardinality:
+	
+	- Refers to the number of cardinal (basic) members in a set.
+	- One to One
+	- One to Many
+	- Many to Many
+	
+- Associationjoins two entirely different entities.

@@ -1,0 +1,19 @@
+Aggregation:
+	
+	- Represents 'has-a' relationship between the entities.
+	- The relationship is identified by two properties:
+		- Lifetime of hte objects of the entities
+		- Owner
+	
+	- The lifetime of the entities is managed independently.
+	
+	- A unidirectional association.
+
+Composition:
+	
+	- A restricted type of aggregation.
+	- Composition obeys:
+		- An ownership between the entities 
+		- The lifetime of the entities
+		
+- In Composition the child class objects are dependent on the class in which it is created. If the definition class is destroyed, then all the Objects that are defined inside the definition class are also destroyed.

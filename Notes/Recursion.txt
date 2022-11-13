@@ -1,0 +1,12 @@
+Recursion Technique:
+	
+	- A method that calls itself to provide the solution to the problem is called as Recursive Method.
+	
+	- Recursion and Iteration hace an effect on the performance of the code.
+	
+Usage of Recursion:
+	
+	- Mathematical Series
+	- Tree Traversal
+	- List, Sort or Search
+	- Puzzles

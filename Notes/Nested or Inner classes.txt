@@ -1,0 +1,23 @@
+
+Nested Classes:
+	
+	- It increases encapsulation.
+	
+	- A mechanism to group class.
+	
+	- It provides better readable and maintainable code.
+	
+	Types of Inner Class:
+		- Regular
+		- Method-Local
+		- Anonymous
+		- Static
+		
+Regular Inner Class:
+
+	Syntax:
+		class Outer {
+			class Inner {
+			}
+		}
+	
