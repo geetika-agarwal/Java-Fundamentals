@@ -1,0 +1,10 @@
+Trees:
+
+	When we want to represent hierarichial data, we use Trees.
+	
+	Applications:
+		- Databases.
+		- Findinf Data based on index
+		- Autocompletion
+		- Compilers
+		- Compressions (JPEG, MP3)

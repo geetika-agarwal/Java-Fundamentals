@@ -1,0 +1,8 @@
+Method References:
+
+	- Used to refer a method of functional Interface
+	- This approach is easy and compact form of Lambda Expression.
+	You can have three different method references in Java:
+		- Reference to a static method
+		- references to an instance method
+		- references to a constructor.
