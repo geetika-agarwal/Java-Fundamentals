@@ -1,0 +1,10 @@
+-- Find the largest order placed in 2004
+
+	 select max(totalAmount) from orderTable where orderDate Like '%2014%';
+	
+-- Find the number of people in each country
+	
+	SELECT country, count(id)
+    -> from customer
+    -> group by country;
+	
