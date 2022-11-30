@@ -3,7 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
-     
+     	
+     	<!-- Creating object by initializing using the parameterized constructor -->
+     	
     	<bean id="cust1" class="com.beans.Customer">
     		<constructor-arg value="1" type="int" index="0" />
     		<constructor-arg value="ABC" type="String" index="1" />

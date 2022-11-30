@@ -4,6 +4,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
      
+     	<!-- Importing all the beans into one XML and using this XML to get all 
+     	the bean id that are created in all the imported XML -->
+     
     	<import resource="emp1.xml"/>
     	<import resource="emp2.xml"/>
     	<import resource="emp3.xml"/>

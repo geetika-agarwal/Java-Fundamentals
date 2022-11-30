@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+     
+     	<!-- Adding the property by referencing the other object/ bean -->
+     
+    	<bean id="customer1" class="com.beans.Customer1">
+    		<property name="custId" value="110" />
+    		<property name="custName" value="Geetika" />
+    		<property name="address" ref="address1" />
+    	</bean>
+    	
+    	<bean id="address1" class="com.beans.Address">
+    	<property name="buildingName" value="Vishesh Vihar" />
+    	<property name="areaName" value="Gandhi Nagar" />
+    	<property name="cityName" value="Hyderabad" />
+    	</bean>
+       
+</beans>

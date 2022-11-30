@@ -1,7 +1,9 @@
-package com.beans;
+package run;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.beans.Employee;
 
 public class EmployeeRun {
 	public static void main(String[] args) {

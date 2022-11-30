@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+     
+     	<!-- Scopes can be prototype, request, session -->
+     
+    	<bean id="car" class="com.beans.Car" scope="prototype">
+    		<constructor-arg value="260" type="int" index="0" />
+    		<constructor-arg value="Maruti" type="String" index="1" />
+    		<constructor-arg value="Brown" type="String" index="2" />
+    	</bean>
+       
+       <!-- This will call the car factory and create car object using the car factory. 
+       This is a simple way of making a Single Ton Class Design Pattern. 
+       Here the CarFactory is the single ton class. -->
+       
+       <bean id="carFactory" class="com.factory.CarFactory" />
+       <bean id="car1" factory-bean="carFactory" factory-method="getCar" />
+       
+</beans>
