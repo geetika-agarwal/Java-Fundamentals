@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+    
+    <bean id="department" class="com.autowiring.beans.Department">
+    	<property name="name" value="IT Security" />
+    </bean>
+   
+   <bean id="departmentOne" class="com.autowiring.beans.Department" primary="true">
+   	<property name="name" value="Development" />
+   </bean>
+       
+   <bean id="departmentTwo" class="com.autowiring.beans.Department">
+   	<property name="name" value="HR Services" />
+   </bean>
+   
+   <bean id="employeeOne" class="com.autowiring.beans.Employee" autowire="byType">
+   	<property name="name" value="Geetika" />
+   </bean>
+   
+   <bean id="employeeTwo" class="com.autowiring.beans.Employee" autowire="byName">
+   	<property name="name" value="Geetika" />
+   </bean>
+   
+</beans>

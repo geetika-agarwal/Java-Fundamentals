@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"
+    default-destroy-method="globalDestroy">
+    
+    <!-- First Preference to the in-line destroy method. 
+    Second Preference to the default destroy method
+    If none are specified, the destroy method implemented by Disposable interface is called.  -->
+     
+     <bean id="life" class="com.beans.LifeCycleBean" init-method="" destroy-method="preDestroy"/>
+     <bean id="utility" class="com.beans.UtilityBean" />
+       
+</beans>

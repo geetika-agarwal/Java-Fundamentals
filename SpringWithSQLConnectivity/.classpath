@@ -7,10 +7,13 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-aop-5.0.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-beans-5.0.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-context-5.0.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-core-5.0.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-expression-5.0.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-aop-5.0.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/mysql-connector-java-8.0.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-jdbc-5.0.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/geeti/Downloads/Spring library/lib/spring-tx-5.0.0.RC1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

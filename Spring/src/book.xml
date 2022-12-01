@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+     
+     	<bean id="book1" class="com.beans.Book">
+     		<property name="bookId" value="100" />
+     		<property name="bookName" value="Java 8" />
+     		<property name="price" value="800" />
+     	</bean>
+     	
+     	<bean id="book2" class="com.beans.Book">
+     		<property name="bookId" value="100" />
+     		<property name="bookName" value="Java 8" />
+     		<property name="price" value="800" />
+     	</bean>
+     	
+     	<bean id="book3" class="com.beans.Book">
+     		<property name="bookId" value="102" />
+     		<property name="bookName" value="Spring 5.0" />
+     		<property name="price" value="1000" />
+     	</bean>
+     	
+     	<bean id="book4" class="com.beans.Book">
+     		<property name="bookId" value="104" />
+     		<property name="bookName" value="Spring 5.0" />
+     		<property name="price" value="1500" />
+     	</bean>
+     	
+     	<bean id="bookList" class="com.beans.BookLibrary">
+     		<property name="books">
+     			<list>
+     				<ref bean="book1"/>
+     				<ref bean="book2"/>
+     				<ref bean="book3" />
+     			</list>
+     		</property>
+     	</bean>
+       
+       <bean id="bookSet" class="com.beans.BookSetLibrary">
+       	<property name="bookSet">
+       		<set>
+       			<ref bean="book1"/>
+       			<ref bean="book2"/>
+       			<ref bean="book3"/>
+       			<ref bean="book4" />
+       		</set>
+       	</property>
+       </bean>
+       
+       <bean id="bookMap" class="com.beans.BookMapLibrary">
+       	<property name="bookMap">
+       		<map>
+       			<entry key="Java" value-ref="book1"/>
+       			<entry key="Java" value-ref="book2" />
+       			<entry key="Spring" value-ref="book3" />
+       		</map>
+       	</property>
+       </bean>
+       
+       <bean id="bookNameMap" class="com.beans.BookNameMapLibrary">
+       	<property name="bookNameMap">
+       	<map>
+       		<entry key="Java Books">
+	       		<list>
+		       		<ref bean="book2"/>
+		       		<ref bean="book1"/>
+	       		</list>
+       		</entry>
+       		<entry key="Spring Books">
+       			<list>
+					<ref bean="book4"/>
+					<ref bean="book3"/>       				
+       			</list>
+       		</entry>
+       	</map>
+       	</property>
+       </bean>
+</beans>
