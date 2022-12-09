@@ -1,9 +1,9 @@
 
 HashMap:
 	
-	- It is a hash table based upon Map interface.
+	- It is a hash table based on the Map interface.
 	
-	- Map helps us to store data in key value pair.
+	- Map helps us to store data in key-value pairs.
 	
 	- HashMap cannot contain duplicate keys. 
 	
@@ -11,29 +11,29 @@ HashMap:
 	
 	- HashMap is an unordered collection.
 	
-	- HashMap is not thread-safe. Explicity synchronize.
+	- HashMap is not thread-safe. Explicitly synchronize.
 	
 Methods in HashMap:
 
-put(key, value): This will add the data to the map and no duplicates are allowed. If key is duplicated, the value is overriden by the value.
+put(key, value): This will add the data to the map and no duplicates are allowed. If the key is duplicated, the value is overridden by the value.
 
-putIfAbsent(key, value): This will only add unique key values and duplicated key values are ignored.
+putIfAbsent(key, value): This will only add unique key values, and duplicated key values are ignored.
 
-isEmpty(): This will chack if map is empty.
+isEmpty(): This will check if the map is empty.
 
 size(): This will return the size of the map.
 
-containsKey(key): This will return boolean value if the particular key is present in the list or not.
+containsKey(key): This will return a boolean value if the particular key is present in the list or not.
 
 get(key): This will return the value that is present in the key. If there is no key present then it will return null.
 
 
-containsValue(value): This will return boolean value if the value is present in the map or not.
+containsValue(value): This will return a boolean value if the value is present in the map or not.
 
-remove(key, value): This will return boolean value based on whether the key-value removed successfully or not.
+remove(key, value): This will return a boolean value based on whether the key value was removed successfully or not.
 
 entrySet(): This will store the hashmap in entries to set collection.
 
-keySet(): This store all the keys of the HashMap into a Set.
+keySet(): This stores all the keys of the HashMap into a Set.
 
-values(): This will return the Collection all the values present in the map.
+values(): This will return the Collection of all the values present in the map.

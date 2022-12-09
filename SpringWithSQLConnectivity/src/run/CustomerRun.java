@@ -11,7 +11,7 @@ import com.anno.beans.CustomerDAO;
 public class CustomerRun {
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-		CustomerDAO customerDao = (CustomerDAO) context.getBean("customerDAOImpl");
+		CustomerDAO customerDao = (CustomerDAO) context.getBean("customerDAOSupport");
 		// insert into customer
 //		Customer c = new Customer();
 //		int rows = customerDao.addCustomer(c);

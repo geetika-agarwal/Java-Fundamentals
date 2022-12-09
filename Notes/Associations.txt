@@ -30,4 +30,4 @@ Cardinality:
 	- One to Many
 	- Many to Many
 	
-- Associationjoins two entirely different entities.
+- Association joins two entirely different entities.

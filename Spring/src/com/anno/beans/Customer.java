@@ -1,7 +1,6 @@
 package com.anno.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 // creates the beans with the de-capitalized class name as id as default
@@ -14,7 +13,7 @@ public class Customer {
 	// Autowired will call the constructor with itself
 	// Qualifier will make the value of the id for that particular bean clean
 	@Autowired
-	@Qualifier(value = "address1")
+	// @Qualifier(value = "address1")
 	private Address address;
 
 	public Customer() {

@@ -7,7 +7,7 @@ A framework in Java that provides different interfaces and classes to store and 
 
 Collection (Interface): 
 	- Set (Interface)
-		- SortedList (Interface)
+		- SortedSet (Interface)
 			- TreeSet(Class)
 		- HashSet
 		- LinkedHashSet

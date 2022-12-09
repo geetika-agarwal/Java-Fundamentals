@@ -1,9 +1,9 @@
 
-There are some errors being raised by compiler or interpretator at compile time and run time depending upon the coding approach a developer follows.
+Some errors are being raised by the compiler or interpreter at compile time and run time depending on the developer's coding approach.
 
 There are types of errors:
 	
-	- Compile-Time Errors: caught by compiler while writing a program. They occur when we do a syntactical mistakes, or mis-spell any keywords. They are also considered as:
+	- Compile-Time Errors: caught by the compiler while writing a program. They occur when we do syntactical mistakes or misspell any keywords. They are also considered as:
 		- Syntactical Errors
 			- Missing SemiColons
 			- Mis-spelled Keywords
@@ -19,12 +19,12 @@ Note: Programmers need to handle or resolve the compile-time errors by themselve
 
 	- Run-Time Errors:
 		These errors occur due to incorrect input or invalid inputs.
-		They are occured at excution time.
+		They occurred at execution time.
 		They can be resolved with the help of Exception Handling.
 		The program gets abnormally terminated due to exceptions.
 	
 	- Logical Errors:
-		These errors occurs when we don't get an expected output.
+		These errors occur when we don't get the expected output.
 		These are the errors raised by developers.
 		They are due to incorrect logic or incorrect use of operations.
 
@@ -33,7 +33,7 @@ Exception Handling:
 	There are two types of Exceptions:
 		- Checked Exceptions: These occur during the Compile-time.
 		
-		- Unchecked Exception: These occur during the run-time of the program excution.
+		- Unchecked Exception: These occur during the run-time of the program execution.
 	
 	
 	

@@ -62,7 +62,8 @@ public class MapExample {
 		Iterator<Map.Entry<Integer, String>> itr = set.iterator();
 
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			Map.Entry<Integer, String> entry = itr.next();
+			System.out.println(entry.getKey() + " -> " + entry.getValue());
 		}
 
 		System.out.println("******************************");
